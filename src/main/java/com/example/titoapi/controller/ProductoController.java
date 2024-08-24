@@ -54,6 +54,6 @@ public class ProductoController {
                 .orElseThrow(() -> new RuntimeException("No se encontro el producto con el id " + id));
 
         productoRepository.delete(producto);
-        return "El producto con el id: " + id + " fue borrado";
+        return "El producto con el id: " + id + " fue borrado!!!!";
     }
 }
