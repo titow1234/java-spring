@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/productos")
 public class ProductoController {
-
+    // este es un comentario
     @Autowired
     private ProductoRepository productoRepository;
 
